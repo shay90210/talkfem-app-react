@@ -1,0 +1,46 @@
+// GLOBAL STYLES ------------------------------------------------
+    $--color-Primary: #0b8457;
+    $--color-Secondary: #feffdf;
+    $--color-dark: #272343;
+    $--color-light: #fafafa;
+    
+    $--header-1: 84px;
+    $--header-2: 60px;
+    $--header-3: 24px;
+
+    $--ff-primary: 'Shadows Into Light', cursive;
+    $--ff-secondary: 'Roboto Condensed', sans-serif;
+    $--ff-reading: 'Source Sans Pro', sans-serif;
+    
+    $--para-1: 18px;
+    $--para-2: 14px;
+    
+    $--fw-bold: 600;
+    $--fw-bolder: 900;
+    
+    $--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
+    0.125em 0.125em 0.25em rgba(0,0,0, .15);
+
+// main navigation bar --------------------------------------------
+.main-nav {
+    background-color: $--color-Primary;
+    .nav-link {
+        color: $--color-light;
+        font-weight: $--fw-bold;
+        text-align: center;
+    }
+    .nav-link:hover {
+        color: #272343;
+    }
+}
+
+// header -----------------------------------------------------------
+.logo-img {
+    border-radius: 50%;
+}
+
+.main-header {
+    font-size: $--header-1;
+    font-weight: $--fw-bolder;
+    font-family: $--ff-primary;
+}
