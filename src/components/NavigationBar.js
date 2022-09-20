@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const NavigationBar = () => {
     
   return (
-    <Nav className='pt-3 pb-3 justify-content-center' sticky='top' navbar>
+    <Nav className='main-nav pt-3 pb-3 justify-content-center'>
         <NavItem>
             <NavLink className='nav-link' to='/'>
                 <i className='fa fa-home' /> Home
@@ -25,7 +25,7 @@ const NavigationBar = () => {
                 <i className='fa fa-address-card' /> Contact
             </NavLink>
         </NavItem>
-    </Nav>
+    </Nav>    
    )
 }
 
