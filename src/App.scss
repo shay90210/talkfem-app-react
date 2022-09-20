@@ -33,9 +33,13 @@
     }
 }
 
-// header -----------------------------------------------------------
+// header and subheader ---------------------------------------------
 .logo-img {
     border-radius: 50%;
+}
+
+.header {
+    background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
 }
 
 .main-header {
