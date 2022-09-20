@@ -1,11 +1,12 @@
-import { Container } from 'reactstrap';
+import NavigationBar from '../components/NavigationBar';
 import SubHeader from '../components/SubHeader';
 
 const HomePage = () => {
     return (
-        <Container>
+        <div>
+            <NavigationBar />
             <SubHeader />
-        </Container>
+        </div>
     );
 };
 
