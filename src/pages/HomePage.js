@@ -1,5 +1,6 @@
 import NavigationBar from '../components/NavigationBar';
 import Header from '../components/Header';
+import MainCarousel from '../components/MainCarousel';
 import Footer from '../components/Footer';
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
         <div>
             <NavigationBar />
             <Header/>
+            <MainCarousel />
             <Footer />
         </div> 
     );
