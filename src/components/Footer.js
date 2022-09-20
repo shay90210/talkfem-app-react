@@ -10,9 +10,9 @@ const Footer = () => {
         <footer className='site-footer'>
             <Container>
                 <Row>
-                    <Col>
+                    <Col className='pt-4'>
                         <h5>Links</h5>
-                        <ul className='list-unstyled'>
+                        <ul class='list-unstyled'>
                             <li>
                                 <Link to='/'>Home</Link>
                             </li>
@@ -31,7 +31,7 @@ const Footer = () => {
                 <Row>
                     <Col>
                         <h5>Social</h5>
-                        <div className='d-flex justify-content-evenly'>
+                        <div className='d-flex justify-content-evenly pb-4'>
                             <a 
                                 className='btn btn-social-icon'
                                 href='https://www.tiktok.com/@talkyourfemsht?lang=en'

@@ -18,17 +18,17 @@ const [menuOpen, setMenuOpen] = useState(false);
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/about'>
-                        <i className='fa fa-user' /> About
+                            <i className='fa fa-user' /> About
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/podcast'>
-                        <i className='fa fa-microphone' /> Podcast
+                            <i className='fa fa-microphone' /> Podcast
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink className='nav-link' to='/contact'>
-                        <i className='fa fa-address-card' /> Contact
+                            <i className='fa fa-address-card' /> Contact
                         </NavLink>
                     </NavItem>
                 </Nav>
