@@ -1,7 +1,7 @@
 import { Col, Row, Breadcrumb, BreadcrumbItem} from 'reactstrap';
 import { Link } from 'react-router-dom';
 
-const SubHeader = ({ current, detail }) => {
+const SubHeader = ({ current }) => {
     return (
         <Row>
             <Col>
@@ -11,8 +11,6 @@ const SubHeader = ({ current, detail }) => {
                     </BreadcrumbItem>
                     <BreadcrumbItem active>{current}</BreadcrumbItem>
                 </Breadcrumb>
-                <h2>{current}</h2>
-                <hr />
             </Col>
         </Row>
     )
