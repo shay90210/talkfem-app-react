@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import ImageOne from '../img/pexels-lucas-da-miranda-1967902.jpg';
 import ImageTwo from '../img/womenundertrees.jpg';
-import ImageThree from '../img/womenturnedbackwards.jpg';
+import ImageThree from '../img/womantshirt.jpg';
 
 const MainCarousel = () => {
     return (
@@ -13,8 +13,8 @@ const MainCarousel = () => {
                 alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>EPISODES EVERY FRIDAY</h3>
+                    <p>Tune in every Friday @ 10pm to join a safe space and have conversations that will stimulate what it means to be a strong woman.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -24,8 +24,8 @@ const MainCarousel = () => {
                 alt="Second slide"
                 />
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>FOLLOW US ON SOCIAL MEDIA</h3>
+                    <p>Follow us on Twitter to receive the latest updates or TikTok to watch us giving you the best advice you would need to hear in 2 minutes or less.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -35,8 +35,8 @@ const MainCarousel = () => {
                 alt="Third slide"
                 />
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3>CONTACT US</h3>
+                    <p>Send us a message to see how you can join in the next conversation or to let us know how we're doing!</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
