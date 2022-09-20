@@ -5,7 +5,7 @@
 <img 
     src='/src/img/imagelogoreadme.JPG' 
     alt='logo brand' 
-    width='400px'
+    width='500px'
 />
 
 ### React Components 
@@ -28,5 +28,5 @@ The homepage slightly resembles my original bootstrap homepage where I created t
 <img 
     src='/src/img/screencapture-localhost-3000-2022-09-19-22_55_52.png' 
     alt='homepage' 
-    width='200px' 
+    width='600px' 
 />
