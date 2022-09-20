@@ -27,7 +27,6 @@
     .nav-link {
         color: $--color-light;
         font-weight: $--fw-bold;
-        text-align: center;
     }
     .nav-link:hover {
         color: #272343;
@@ -43,4 +42,18 @@
     font-size: $--header-1;
     font-weight: $--fw-bolder;
     font-family: $--ff-primary;
+}
+
+// footer -----------------------------------------------------------
+.site-footer {
+    a:hover {
+        color: $--color-dark
+    }
+    a {
+        text-decoration: none;
+        color: $--color-light;
+        font-weight: $--fw-bold;
+    }
+    color: $--color-Secondary;
+    background-color: $--color-Primary;
 }

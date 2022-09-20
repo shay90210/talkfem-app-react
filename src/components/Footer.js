@@ -1,5 +1,9 @@
 import { Container, Col, Row } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { faSpotify } from '@fortawesome/free-brands-svg-icons';
  
 const Footer = () => {
     return (
@@ -23,26 +27,30 @@ const Footer = () => {
                             </li>
                         </ul>
                     </Col>
+                </Row>
+                <Row>
                     <Col>
                         <h5>Social</h5>
-                        <a 
-                            className='btn btn-social-icon'
-                            href='https://www.tiktok.com/@talkyourfemsht?lang=en'
-                        >
-                            <i className='fa fa-tiktok' />
-                        </a>{' '}
-                        <a
-                            className='btn btn-social-icon'
-                            href='https://twitter.com/TalkYourFemSHT'
-                        >
-                            <i className='fa fa-twitter' />
-                        </a>{' '}
-                        <a 
-                            className='btn btn-social-icon'
-                            href="https://anchor.fm/shannon-bentley"
-                        >
-                            <i className='fa fa-spotify' />
-                        </a>{' '}
+                        <div className='d-flex justify-content-evenly'>
+                            <a 
+                                className='btn btn-social-icon'
+                                href='https://www.tiktok.com/@talkyourfemsht?lang=en'
+                            >
+                                <FontAwesomeIcon icon={faTiktok} />
+                            </a>
+                            <a
+                                className='btn btn-social-icon'
+                                href='https://twitter.com/TalkYourFemSHT'
+                            >
+                                <FontAwesomeIcon icon={faTwitter} />
+                            </a>
+                            <a 
+                                className='btn btn-social-icon'
+                                href='https://anchor.fm/shannon-bentley'
+                            >
+                                <FontAwesomeIcon icon={faSpotify} />
+                            </a>
+                        </div>
                     </Col>
                 </Row>
             </Container>

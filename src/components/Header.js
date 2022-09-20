@@ -11,7 +11,7 @@ const Header = () => {
                 className='mt-5 mb-2 logo-img'
             />
 
-            <h1 className='main-header pb-4'>Talk Your FEMSH!T</h1>
+            <h1 className='main-header text-center pb-4'>Talk Your FEMSH!T</h1>
         </div>
     )
 }
