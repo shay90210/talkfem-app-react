@@ -1,3 +1,4 @@
+
 // GLOBAL STYLES ------------------------------------------------
     $--color-Primary: #0b8457;
     $--color-Secondary: #feffdf;
@@ -29,7 +30,7 @@
         font-weight: $--fw-bold;
     }
     .nav-link:hover {
-        color: #272343;
+        color: $--color-dark;
     }
 }
 
@@ -58,9 +59,9 @@
         color: $--color-light;
         font-weight: $--fw-bold;
     }
-    color: $--color-Secondary;
-    background-color: $--color-Primary;
     h5 {
         font-weight: $--fw-bolder;
     }
+    color: $--color-Secondary;
+    background-color: $--color-Primary;
 }
