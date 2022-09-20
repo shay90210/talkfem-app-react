@@ -3,7 +3,7 @@
 ## Podcast website driven to evoke women's empowerment through shared experiences. This project is coded in all React.js. 
 
 <img 
-    src='../talk-fem-app/src/img/imagelogoreadme.JPG' 
+    src='/src/img/imagelogoreadme.JPG' 
     alt='logo brand' 
     width='400px'
 />
@@ -26,7 +26,7 @@ The homepage slightly resembles my original bootstrap homepage where I created t
 - The navigation bar in the main bar and the footer are not centering on the page the way I need it to. I am currently thinking about restructing the navbar to get my items centered. 
 
 <img 
-    src='../talk-fem-app/src/img/screencapture-localhost-3000-2022-09-19-22_55_52.png' 
+    src='/src/img/screencapture-localhost-3000-2022-09-19-22_55_52.png' 
     alt='homepage' 
     width='200px' 
 />
