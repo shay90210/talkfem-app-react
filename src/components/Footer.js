@@ -23,22 +23,22 @@ const Footer = () => {
                             </li>
                         </ul>
                     </Col>
-                    <Col className='text-center'>
+                    <Col>
                         <h5>Social</h5>
                         <a 
-                            className='btn btn-social-icon btn-tiktok'
+                            className='btn btn-social-icon'
                             href='https://www.tiktok.com/@talkyourfemsht?lang=en'
                         >
-                            <i className='fa-brands fa-tiktok' />
-                        </a>
+                            <i className='fa fa-tiktok' />
+                        </a>{' '}
                         <a
-                            className='btn btn-social-icon btn-twitter'
+                            className='btn btn-social-icon'
                             href='https://twitter.com/TalkYourFemSHT'
                         >
                             <i className='fa fa-twitter' />
                         </a>{' '}
                         <a 
-                            className='btn btn-social-icon btn-spotify'
+                            className='btn btn-social-icon'
                             href="https://anchor.fm/shannon-bentley"
                         >
                             <i className='fa fa-spotify' />
