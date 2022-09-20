@@ -4,7 +4,7 @@ import SubHeader from '../components/SubHeader';
 const HomePage = () => {
     return (
         <Container>
-            <SubHeader current='Home' />
+            <SubHeader />
         </Container>
     );
 };
