@@ -2,7 +2,7 @@ import LogoBrand from '../img/new-logo.png';
 
 const Header = () => {
     return (
-        <div className='header'>
+        <div className='header' style={{ backgroundColor: 'radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);' }}>
             <img 
                 src={LogoBrand} 
                 alt="podcast logo brand" 
