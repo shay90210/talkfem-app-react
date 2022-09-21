@@ -85,3 +85,12 @@
     color: $--color-Secondary;
     background-color: $--color-Primary;
 }
+
+// media queries 
+@media screen and (max-width: 700px) {
+    .carousel-main {
+        h3 {
+            font-size: $--header-1
+        }
+    }
+}
