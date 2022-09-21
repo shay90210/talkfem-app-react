@@ -67,6 +67,10 @@
             color: #272343;
         }
     }
+    img {
+        max-width: 100%;
+        height: 100%;
+    }
 }
 
 // footer -----------------------------------------------------------
@@ -87,10 +91,27 @@
 }
 
 // media queries 
-@media screen and (max-width: 700px) {
-    .carousel-main {
-        h3 {
-            font-size: $--header-1
-        }
+@media screen and (min-width: 700px) {
+    .carousel-main h3 {
+        font-size: $--header-2
+    }
+    .carousel-main p {
+        font-size: $--header-3;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header h1 {
+        font-size: $--header-2
+    }
+    .header img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    .header h1 {
+        font-size: 48px;
     }
 }
