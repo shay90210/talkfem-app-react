@@ -1,11 +1,14 @@
 import Carousel from 'react-bootstrap/Carousel';
 import ImageOne from '../img/pexels-lucas-da-miranda-1967902.jpg';
 import ImageTwo from '../img/womenundertrees.jpg';
-import ImageThree from '../img/womantshirt.jpg';
+import ImageThree from '../img/Green Wateroclor Leaf Linktree Background.png';
 
 const MainCarousel = () => {
     return (
-        <Carousel fade>
+        <Carousel 
+            fade 
+            className='carousel-main'
+        >
             <Carousel.Item>
                 <img
                 className="d-block w-100"
@@ -28,7 +31,7 @@ const MainCarousel = () => {
                     <p>Follow us on Twitter to receive the latest updates or TikTok to watch us giving you the best advice you would need to hear in 2 minutes or less.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item>
+            <Carousel.Item className='third-carousel-slide'>
                 <img
                 className="d-block w-100"
                 src={ImageThree}

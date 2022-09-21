@@ -49,6 +49,26 @@
     font-family: $--ff-primary;
 }
 
+// main carousel 
+.carousel-main {
+    h3, p {
+        color: yellow;
+    }
+    h3{
+        font-weight: $--fw-bolder;
+        font-size: $--header-3;
+    }
+    p {
+        font-size: $--para-1;
+        font-weight: $--fw-bold;
+    }
+    .third-carousel-slide {
+        h3, p {
+            color: #272343;
+        }
+    }
+}
+
 // footer -----------------------------------------------------------
 .site-footer {
     a:hover {
