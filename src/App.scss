@@ -1,5 +1,5 @@
 
-// GLOBAL STYLES ------------------------------------------------
+// GLOBAL STYLES -----------------------------------------------------
     $--color-Primary: #0b8457;
     $--color-Secondary: #feffdf;
     $--color-dark: #272343;
@@ -22,7 +22,7 @@
     $--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
     0.125em 0.125em 0.25em rgba(0,0,0, .15);
 
-// main navigation bar --------------------------------------------
+// main navigation bar -----------------------------------------------
 .main-nav {
     background-color: $--color-Primary;
     .nav-link {
@@ -34,7 +34,7 @@
     }
 }
 
-// header and subheader ---------------------------------------------
+// header and subheader ----------------------------------------------
 .logo-img {
     border-radius: 50%;
 }
@@ -49,7 +49,7 @@
     font-family: $--ff-primary;
 }
 
-// main carousel 
+// main carousel-------------------------------------------------------
 .carousel-main {
     h3, p {
         color: yellow;
@@ -62,35 +62,26 @@
         font-size: $--para-1;
         font-weight: $--fw-bold;
     }
-    .third-carousel-slide {
-        h3, p {
-            color: #272343;
-        }
-    }
-    img {
-        max-width: 100%;
-        height: 100%;
-    }
 }
 
 // footer -----------------------------------------------------------
 .site-footer {
-    a:hover {
-        color: $--color-dark
-    }
-    a {
-        text-decoration: none;
-        color: $--color-light;
-        font-weight: $--fw-bold;
-    }
-    h5 {
-        font-weight: $--fw-bolder;
-    }
     color: $--color-Secondary;
     background-color: $--color-Primary;
+        a {
+            text-decoration: none;
+            color: $--color-light;
+            font-weight: $--fw-bold;
+        }
+        a:hover {
+            color: $--color-dark;
+        }
+        h5 {
+            font-weight: $--fw-bolder;
+        }
 }
 
-// media queries 
+// media queries -----------------------------------------------------
 @media screen and (min-width: 700px) {
     .carousel-main h3 {
         font-size: $--header-2

@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import ImageOne from '../img/pexels-lucas-da-miranda-1967902.jpg';
-import ImageTwo from '../img/womenundertrees.jpg';
-import ImageThree from '../img/Green Wateroclor Leaf Linktree Background.png';
+import ImageOne from '../img/womaninbrown.jpg';
+import ImageTwo from '../img/womentrees.jpg';
+import ImageThree from '../img/happywomen.jpg';
 
 const MainCarousel = () => {
     return (
