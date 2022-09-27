@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+.main-nav {
+  background-color: #0b8457;
+}
+.main-nav .nav-link {
+  color: #fafafa;
+  font-weight: 600;
+}
+.main-nav .nav-link:hover {
+  color: #272343;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-img {
+  border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header {
+  background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%);
+}
+
+.main-header {
+  font-size: 84px;
+  font-weight: 900;
+  font-family: "Shadows Into Light", cursive;
+}
+
+.carousel-main h3, .carousel-main p {
+  color: yellow;
+}
+.carousel-main h3 {
+  font-weight: 900;
+  font-size: 24px;
+}
+.carousel-main p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.site-footer {
+  color: #feffdf;
+  background-color: #0b8457;
+}
+.site-footer a {
+  text-decoration: none;
+  color: #fafafa;
+  font-weight: 600;
+}
+.site-footer a:hover {
+  color: #272343;
+}
+.site-footer h5 {
+  font-weight: 900;
+}
+
+@media screen and (min-width: 700px) {
+  .carousel-main h3 {
+    font-size: 60px;
+  }
+  .carousel-main p {
+    font-size: 24px;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 650px) {
+  .header h1 {
+    font-size: 60px;
   }
-  to {
-    transform: rotate(360deg);
+  .header img {
+    width: 200px;
+    height: 200px;
   }
 }
+@media screen and (max-width: 456px) {
+  .header h1 {
+    font-size: 48px;
+  }
+}/*# sourceMappingURL=App.css.map */
