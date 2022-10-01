@@ -11,11 +11,6 @@ const NavigationBar = () => {
             </NavLink>
         </NavItem>
         <NavItem>
-            <NavLink className='nav-link' to='/about'>
-                <i className='fa fa-user' /> About
-            </NavLink>
-        </NavItem>
-        <NavItem>
             <NavLink className='nav-link' to='/podcast'>
                 <i className='fa fa-microphone' /> Podcast
             </NavLink>
