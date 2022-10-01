@@ -12,9 +12,9 @@ function App() {
       <NavigationBar />
       <Routes>
         <Route path='/' element={<HomePage />}/>
-        <Route path='about' element={<AboutPage />}/>
-        <Route path='podcast' element={<PodcastPage />}/>
-        <Route path='contact' element={<ContactPage />}/>
+        <Route path='/about' element={<AboutPage />}/>
+        <Route path='/podcast' element={<PodcastPage />}/>
+        <Route path='/contact' element={<ContactPage />}/>
       </Routes>
     </div>
   );

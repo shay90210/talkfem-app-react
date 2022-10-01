@@ -1,13 +1,13 @@
 import LogoBrand from '../img/new-logo.png';
 
-const Header = () => {
+const MainHeader = () => {
     return (
         <div className='header'>
             <img 
                 src={LogoBrand} 
                 alt="podcast logo brand" 
-                width='300px'
-                height='300px'
+                width='200px'
+                height='200px'
                 className='mt-5 mb-4 logo-img'
             />
 
@@ -16,4 +16,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default MainHeader

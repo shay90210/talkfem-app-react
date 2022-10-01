@@ -1,12 +1,11 @@
-import NavigationBar from '../components/NavigationBar';
-import Header from '../components/Header';
+import MainHeader from '../components/MainHeader';
 import MainCarousel from '../components/MainCarousel';
 import Footer from '../components/Footer';
 
 const HomePage = () => {
     return (
         <div>
-            <Header/>
+            <MainHeader/>
             <MainCarousel />
             <Footer />
         </div> 
