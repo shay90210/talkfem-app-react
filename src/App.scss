@@ -1,11 +1,10 @@
-
 // GLOBAL STYLES -----------------------------------------------------
-    $--color-Primary: #0b8457;
+    $--color-Primary: #ff8585;
     $--color-Secondary: #feffdf;
     $--color-dark: #272343;
     $--color-light: #fafafa;
     
-    $--header-1: 84px;
+    $--header-1: 96px;
     $--header-2: 60px;
     $--header-3: 24px;
 
@@ -21,6 +20,7 @@
     
     $--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
     0.125em 0.125em 0.25em rgba(0,0,0, .15);
+
 
 // main navigation bar -----------------------------------------------
 .main-nav {
@@ -39,33 +39,24 @@
     border-radius: 50%;
     margin: auto;
     display: block;
+    width: 200px;
 }
 
 .main-header {
     font-size: $--header-1;
     font-weight: $--fw-bolder;
     font-family: $--ff-primary;
-}
-
-// main carousel-------------------------------------------------------
-.carousel-main {
-    h3, p {
-        color: yellow;
-    }
-    h3{
-        font-weight: $--fw-bolder;
-        font-size: $--header-3;
-    }
-    p {
-        font-size: $--para-1;
-        font-weight: $--fw-bold;
-    }
+    text-align: center;
+    color: $--color-light;
+    padding-top: 800px;
 }
 
 // footer -----------------------------------------------------------
 .site-footer {
-    color: $--color-Secondary;
     background-color: $--color-Primary;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
         a {
             text-decoration: none;
             color: $--color-light;
@@ -76,31 +67,8 @@
         }
         h5 {
             font-weight: $--fw-bolder;
+            color: $--color-light;
         }
 }
 
-// media queries -----------------------------------------------------
-@media screen and (min-width: 700px) {
-    .carousel-main h3 {
-        font-size: $--header-2
-    }
-    .carousel-main p {
-        font-size: $--header-3;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .header h1 {
-        font-size: $--header-2
-    }
-    .header img {
-        width: 200px;
-        height: 200px;
-    }
-}
-
-@media screen and (max-width: 456px) {
-    .header h1 {
-        font-size: 48px;
-    }
-}
+// media queries ----------------------------------------------------

@@ -1,10 +1,8 @@
-import Footer from '../components/Footer';
-
 const HomePage = () => {
     return (
         <div>
-            <Footer />
-        </div> 
+            <h1 className='main-header'>TALK YOUR FEMSH!T</h1>
+        </div>
     );
 };
 

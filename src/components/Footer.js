@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className='site-footer pt-4'>
             <Container>
                 <Row>
-                    <Col>
+                    <Col className='text-center'>
                         <h5>Social</h5>
                         <div className='d-flex justify-content-evenly pb-4'>
                             <a 
