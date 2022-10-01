@@ -1,10 +1,11 @@
-import './App.css';
 import Background from '../src/img/mainbackground.jpg';
+import NavigationBar from '../src/components/NavigationBar';
+
 import { Route, Routes } from 'react-router-dom';
+
 import HomePage from '../src/pages/HomePage';
 import PodcastPage from '../src/pages/PodcastPage';
 import ContactPage from '../src/pages/ContactPage';
-import NavigationBar from '../src/components/NavigationBar';
 
 function App() {
   return (
