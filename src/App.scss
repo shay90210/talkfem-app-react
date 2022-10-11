@@ -1,5 +1,5 @@
 // GLOBAL STYLES -----------------------------------------------------
-    $--color-Primary: #ff8585;
+    $--color-Primary: #680747;
     $--color-Secondary: #feffdf;
     $--color-dark: #272343;
     $--color-light: #fafafa;
@@ -24,13 +24,14 @@
 
 // main navigation bar -----------------------------------------------
 .main-nav {
-    background-color: $--color-Primary;
+    background-color: $--color-light;
+    font-size: 20px;
     .nav-link {
-        color: $--color-light;
+        color: $--color-dark;
         font-weight: $--fw-bold;
     }
     .nav-link:hover {
-        color: $--color-dark;
+        color: $--color-Primary;
     }
 }
 
@@ -44,30 +45,29 @@
 
 .main-header {
     font-size: $--header-1;
-    font-weight: $--fw-bolder;
+    font-weight:bolder;
     font-family: $--ff-primary;
     text-align: center;
     color: $--color-light;
-    padding-top: 800px;
+    padding-top: 20px;
 }
 
 // footer -----------------------------------------------------------
 .site-footer {
-    background-color: $--color-Primary;
+    background-color: $--color-light;
     position: absolute;
     bottom: 0;
     width: 100%;
         a {
             text-decoration: none;
-            color: $--color-light;
-            font-weight: $--fw-bold;
-        }
-        a:hover {
             color: $--color-dark;
+            font-weight: $--fw-bold;
+            font-size: 20px;
         }
         h5 {
             font-weight: $--fw-bolder;
-            color: $--color-light;
+            color: $--color-dark;
+            font-size: 22px;
         }
 }
 

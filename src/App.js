@@ -11,8 +11,9 @@ function App() {
   return (
     <div 
       className="App"
+      style={{ backgroundColor: '#680747' }}
     >
-    <NavigationBar />
+      <NavigationBar />
         <Routes>
           <Route path='/' element={<HomePage />}/>
           <Route path='/podcast' element={<PodcastPage />}/>
