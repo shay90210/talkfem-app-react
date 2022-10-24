@@ -22,7 +22,9 @@
     0.125em 0.125em 0.25em rgba(0,0,0, .15);
 
 
-// main navigation bar -----------------------------------------------
+// COMPONENTS -----------------------------------------------------------------
+
+// main navigation bar 
 .main-nav {
     background-color: $--color-light;
     font-size: $--para-1;
@@ -35,7 +37,28 @@
     }
 }
 
-// header and subheader ----------------------------------------------
+// footer
+.site-footer {
+    background-color: $--color-light;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+        a {
+            text-decoration: none;
+            color: $--color-dark;
+            font-weight: $--fw-bold;
+            font-size: 20px;
+        }
+        h5 {
+            font-weight: $--fw-bolder;
+            color: $--color-dark;
+            font-size: 22px;
+        }
+}
+
+// PAGES ------------------------------------------------------------------------
+
+// homepage
 .home-page {
     .brand-logo {
         border-radius: 50%;
@@ -55,23 +78,4 @@
 
 }
 
-// footer -----------------------------------------------------------
-.site-footer {
-    background-color: $--color-light;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-        a {
-            text-decoration: none;
-            color: $--color-dark;
-            font-weight: $--fw-bold;
-            font-size: 20px;
-        }
-        h5 {
-            font-weight: $--fw-bolder;
-            color: $--color-dark;
-            font-size: 22px;
-        }
-}
-
-// media queries ----------------------------------------------------
+// MEDIA QUERIES ---------------------------------------------------------------
