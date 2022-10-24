@@ -1,21 +1,25 @@
 import BrandLogo from '../img/logo.png';
 
+import { Container, Row, Col, } from 'reactstrap';
+
 const HomePage = () => {
     return (
-        <div>
+        <div className='home-page'>
             <h1 className='main-header'>TALK YOUR FEMSH!T</h1>
-            <img 
-                src={BrandLogo}
-                className='brand-logo'
-                alt='the podcast logo'
-                width='400px'
-                style={{ 
-                    display: 'block',
-                    margin: 'auto',
-                    marginTop: '60px',
-                    borderRadius: '50%',
-                }}
-             />
+            <Container>
+                <Row>
+                    <Col>
+                        <img 
+                            src={BrandLogo}
+                            className='brand-logo'
+                            alt='the podcast logo'
+                        />
+                    </Col>
+                    <Col>
+                    
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 };

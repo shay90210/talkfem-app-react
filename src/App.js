@@ -11,7 +11,7 @@ function App() {
   return (
     <div 
       className="App"
-      style={{ backgroundColor: '#680747' }}
+      style={{ backgroundColor: '#ffb6c1' }}
     >
       <NavigationBar />
         <Routes>
