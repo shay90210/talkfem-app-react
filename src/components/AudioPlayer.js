@@ -1,4 +1,4 @@
-import { Button, Input } from "reactstrap";
+import { Button, Input, Card, CardBody} from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { 
@@ -16,29 +16,37 @@ const AudioPlayer = () => {
     }
 
     return (
-        <div cLassName='audio-player'>
-            <audio src='/'preload='metadata'></audio>
+        <div className='audio-player'>
+            <Card>
+                <CardBody>
+                    <audio src='/'preload='metadata'></audio>
 
-            <Button><FontAwesomeIcon icon={faArrowAltCircleLeft} /> 30</Button>
+                    <Button className='forward-backward'>
+                        <FontAwesomeIcon icon={faArrowAltCircleLeft} /> 30
+                    </Button>
 
-            <Button onClick={togglePlayPause}>
-                { isPlaying ? <FontAwesomeIcon icon={faPauseCircle} /> : <FontAwesomeIcon icon={faPlayCircle} /> }
-            </Button>
+                    <Button onClick={togglePlayPause}>
+                        { isPlaying ? <FontAwesomeIcon icon={faPauseCircle} /> : <FontAwesomeIcon icon={faPlayCircle} /> }
+                    </Button>
 
-            <Button>30 <FontAwesomeIcon icon={faArrowAltCircleRight} /></Button>
+                    <Button className='forward-backward'>
+                        30 <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                    </Button>
 
-            {/* current time */}
-            <div>0:00</div>
+                    {/* current time */}
+                    <div>0:00</div>
 
-            {/* progress bar */}
-            <div>
-                <Input 
-                    type='range'
-                />
-            </div>
+                    {/* progress bar */}
+                    <div>
+                        <Input 
+                            type='range'
+                        />
+                    </div>
 
-            {/* duration */}
-            <div>2:49</div>
+                    {/* duration */}
+                    <div>2:49</div>
+                </CardBody>
+            </Card>
         </div>
     )
 }

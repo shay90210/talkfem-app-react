@@ -59,7 +59,7 @@
 
 // PAGES ------------------------------------------------------------------------
 
-// all pages - universal styling
+// universal styling
 .main-header {
     font-size: $--header-1;
     font-weight: $--fw-bolder;
@@ -98,8 +98,19 @@
 
 // episodespage
 .audio-player {
-    display: flex;
-    width: 700px;
+    .audio-player {
+        display: flex;
+        width: 700px;
+    }
+    .forward-backward {
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+        font-family: 'roboto condensed';
+        font: 16px;
+
+    }
 }
 
 // contactpage
