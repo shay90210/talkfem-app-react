@@ -103,7 +103,9 @@
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-
+    .control-buttons {
+        display: flex;
+    }
     .forward-backward {
         background: none;
         color: $--color-Primary;
@@ -117,7 +119,7 @@
     }
     .audio-card {
         .forward-backward:hover {
-            color: $--color-Primary
+            background-color: $--color-Primary
         }
     }
 }
