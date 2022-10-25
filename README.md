@@ -25,7 +25,7 @@
 ### HomePage 
 
 <img 
-    src='/src/img/fullhomepage.pdf' 
+    src='/src/img/fullhomepage.jpg' 
     alt='homepage' 
     width='600px' 
 />
@@ -37,7 +37,7 @@
 ### ContactPage
 
 <img 
-    src='/src/img/fullcontactpage.pdf' 
+    src='/src/img/fullcontactpage (1).jpg' 
     alt='homepage' 
     width='600px' 
 />
