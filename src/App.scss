@@ -116,7 +116,7 @@
         display: flex;
         align-items: center;
         font-family: 'roboto condensed';
-        font: 16px;
+        font-size: 20px;
         cursor: pointer;
     }
     .play-pause {
@@ -125,12 +125,16 @@
         border-radius: 50%;
         width: 75px;
         height: 75px;
-        font-size: 32px;
+        font-size: 40px;
         color: $--color-Secondary;
     }
     .audio-card {
         .forward-backward:hover {
             background-color: $--color-Primary
+        }
+        .play-pause:hover {
+            background-color: $--color-Secondary;
+            color: $--color-Primary;
         }
     }
 }
