@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
 
 import HomePage from '../src/pages/HomePage';
-import PodcastPage from '../src/pages/PodcastPage';
+import ListenLivePage from './pages/ListenLivePage';
 import ContactPage from '../src/pages/ContactPage';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <NavigationBar />
         <Routes>
           <Route path='/' element={<HomePage />}/>
-          <Route path='/podcast' element={<PodcastPage />}/>
+          <Route path='/live' element={<ListenLivePage />} />
           <Route path='/contact' element={<ContactPage />}/>
         </Routes>
       <Footer/>

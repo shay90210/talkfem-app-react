@@ -27,10 +27,10 @@
 // main navigation bar 
 .main-nav {
     background-color: $--color-light;
+    font-size: $--para-1;
     .nav-link {
         color: $--color-Primary;
         font-weight: $--fw-bold;
-        font-size: $--para-1;
         font-family: 'roboto condensed';
     }
     .nav-link:hover {
@@ -41,19 +41,19 @@
 // footer
 .site-footer {
     background-color: $--color-light;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
         a {
             text-decoration: none;
-            color: $--color-dark;
+            color: $--color-Primary;
             font-weight: $--fw-bold;
-            font-size: 20px;
+            font-size: $--para-1;
         }
         h5 {
-            font-weight: $--fw-bolder;
-            color: $--color-dark;
-            font-size: 22px;
+            font-weight: $--fw-bold;
+            color: $--color-Primary;
+            font-size: $--header-3;
+            font-family: 'roboto condensed';
+            margin-bottom: 35px;
+            margin-top: 10px;
         }
 }
 

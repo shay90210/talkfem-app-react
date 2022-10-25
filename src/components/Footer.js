@@ -11,7 +11,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col className='text-center'>
-                        <h5>Social</h5>
+                        <h5>CONNECT WITH US ON SOCIAL MEDIA</h5>
                         <div className='d-flex justify-content-evenly pb-4'>
                             <a 
                                 className='btn btn-social-icon'
