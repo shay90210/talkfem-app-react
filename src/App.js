@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import HomePage from '../src/pages/HomePage';
 import ListenLivePage from './pages/ListenLivePage';
+import EpisodesPage from './pages/EpisodesPage';
 import ContactPage from '../src/pages/ContactPage';
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
     >
       <NavigationBar />
         <Routes>
-          <Route path='/' element={<HomePage />}/>
+          <Route path='/' element={<HomePage />} />
           <Route path='/live' element={<ListenLivePage />} />
-          <Route path='/contact' element={<ContactPage />}/>
+          <Route path='/episodes' element={<EpisodesPage />} />
+          <Route path='/contact' element={<ContactPage />} />
         </Routes>
       <Footer/>
     </div>
