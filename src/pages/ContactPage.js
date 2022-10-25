@@ -21,7 +21,7 @@ const ContactPage = () => {
                 style={{ 
                     backgroundColor: 'white',
                     marginTop: '70px',
-                    marginBottom: '70px'
+                    marginBottom: '150px'
                 }}>
                 <p
                     style={{
@@ -29,7 +29,7 @@ const ContactPage = () => {
                         fontWeight: 'bold',
                         paddingTop: '30px'
                     }}
-                >Contact us for specific topics, advice, or if you would like to join our show!</p>
+                >Contact us if you have a question regarding decisions in your life, if you you have a comment, or if you would like to join our show!</p>
                 <Container>
                     <Row>
                         <Col>
