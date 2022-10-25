@@ -103,3 +103,31 @@
 
 
 // MEDIA QUERIES ---------------------------------------------------------------
+
+// homepage media queries
+@media screen and (max-width: 767px) {
+    .home-page {
+        .brand-logo {
+            display: block;
+            margin: auto;
+            margin-top: 60px;
+        }
+        .main-header {
+            font-size: $--header-2;
+        }
+        .second-header {
+            font-size: $--para-1;
+        }
+    }
+}
+
+@media screen and (max-width: 807px) {
+    .home-page {
+        .main-header {
+            font-size: $--header-2;
+        }
+        .brand-logo {
+            width: 250px
+        }
+    }
+}
