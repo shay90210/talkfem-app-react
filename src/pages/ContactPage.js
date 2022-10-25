@@ -30,7 +30,7 @@ const ContactPage = () => {
                         paddingTop: '30px',
                         paddingBottom: '30px'
                     }}
-                >Contact us if you have a question regarding decisions in your life, if you you have a comment, or if you would like to join our show!</p>
+                >Contact us if you have a question regarding decisions in your life, if you have a comment, or if you would like to join our show!</p>
                 <Container>
                     <Row>
                         <Col>
