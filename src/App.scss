@@ -6,7 +6,7 @@
     
     $--header-1: 96px;
     $--header-2: 60px;
-    $--header-3: 24px;
+    $--header-3: 36px;
 
     $--ff-primary: 'Shadows Into Light', cursive;
     $--ff-secondary: 'Roboto Condensed', sans-serif;
@@ -72,11 +72,14 @@
 .second-header {
     text-align: center;
     color: $--color-Primary;
+    font-size: $--header-3;
 }
 
 .third-header {
     text-align: center;
     color: $--color-Primary;
+    font-size: $--para-1;
+    font-weight: $--fw-bold;
 }
 
 // homepage
