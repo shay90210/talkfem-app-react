@@ -1,6 +1,11 @@
 import BrandLogo from '../img/logo.png';
 
-import { Container, Row, Col, } from 'reactstrap';
+import { 
+    Container, 
+    Row, 
+    Col, 
+    Card 
+} from 'reactstrap';
 
 const HomePage = () => {
     return (
@@ -18,7 +23,11 @@ const HomePage = () => {
                         />
                     </Col>
                     <Col>
-                    
+                        <div>
+                            <Card>
+
+                            </Card>
+                        </div>
                     </Col>
                 </Row>
             </Container>
