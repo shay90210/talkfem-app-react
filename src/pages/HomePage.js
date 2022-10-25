@@ -25,7 +25,7 @@ const HomePage = () => {
                     <Col>
                         <div>
                             <Card>
-
+                                Add Something Here
                             </Card>
                         </div>
                     </Col>
