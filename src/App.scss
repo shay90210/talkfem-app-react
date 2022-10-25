@@ -115,7 +115,15 @@
         font-family: 'roboto condensed';
         font: 16px;
         cursor: pointer;
-
+    }
+    .play-pause {
+        background: $--color-Primary;
+        border: none;
+        border-radius: 50%;
+        width: 75px;
+        height: 75px;
+        font-size: 32px;
+        color: $--color-Secondary;
     }
     .audio-card {
         .forward-backward:hover {

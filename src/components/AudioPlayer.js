@@ -26,7 +26,10 @@ const AudioPlayer = () => {
                             <FontAwesomeIcon icon={faArrowAltCircleLeft} /> 30
                         </Button>
 
-                        <Button onClick={togglePlayPause}>
+                        <Button 
+                            onClick={togglePlayPause}
+                            className='play-pause'
+                        >
                             { isPlaying ? <FontAwesomeIcon icon={faPauseCircle} /> : <FontAwesomeIcon icon={faPlayCircle} /> }
                         </Button>
 
