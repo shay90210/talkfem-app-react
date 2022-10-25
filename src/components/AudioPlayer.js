@@ -21,17 +21,19 @@ const AudioPlayer = () => {
                 <CardBody>
                     <audio src='/'preload='metadata'></audio>
 
-                    <Button className='forward-backward'>
-                        <FontAwesomeIcon icon={faArrowAltCircleLeft} /> 30
-                    </Button>
+                    <div className='control-buttons'>
+                        <Button className='forward-backward'>
+                            <FontAwesomeIcon icon={faArrowAltCircleLeft} /> 30
+                        </Button>
 
-                    <Button onClick={togglePlayPause}>
-                        { isPlaying ? <FontAwesomeIcon icon={faPauseCircle} /> : <FontAwesomeIcon icon={faPlayCircle} /> }
-                    </Button>
+                        <Button onClick={togglePlayPause}>
+                            { isPlaying ? <FontAwesomeIcon icon={faPauseCircle} /> : <FontAwesomeIcon icon={faPlayCircle} /> }
+                        </Button>
 
-                    <Button className='forward-backward'>
-                        30 <FontAwesomeIcon icon={faArrowAltCircleRight} />
-                    </Button>
+                        <Button className='forward-backward'>
+                            30 <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                        </Button>
+                    </div>
 
                     {/* current time */}
                     <div>0:00</div>

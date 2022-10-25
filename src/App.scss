@@ -106,6 +106,7 @@
 
     .forward-backward {
         background: none;
+        color: $--color-Primary;
         border: none;
         display: flex;
         align-items: center;
@@ -114,8 +115,10 @@
         cursor: pointer;
 
     }
-    .forward-backward:hover {
-        color: $--color-Primary
+    .audio-card {
+        .forward-backward:hover {
+            color: $--color-Primary
+        }
     }
 }
 
