@@ -27,7 +27,8 @@ const ContactPage = () => {
                     style={{
                         textAlign: 'center',
                         fontWeight: 'bold',
-                        paddingTop: '30px'
+                        paddingTop: '30px',
+                        paddingBottom: '30px'
                     }}
                 >Contact us if you have a question regarding decisions in your life, if you you have a comment, or if you would like to join our show!</p>
                 <Container>
@@ -110,6 +111,9 @@ const ContactPage = () => {
                                 src={BeautifulWomanImg}
                                 alt=''
                                 width='410px'
+                                style={{
+                                    paddingBottom: '50px'
+                                }}
                             />
                         </Col>
                     </Row>
