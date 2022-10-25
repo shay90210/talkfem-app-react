@@ -1,32 +1,43 @@
 # Talk Your FEMSH!T Podcast - REACT PROJECT
 
-## Podcast website driven to evoke women's empowerment through shared experiences. This project is coded in all React.js. 
-
 <img 
-    src='/src/img/imagelogoreadme.JPG' 
+    src='/src/img/logo.png' 
     alt='logo brand' 
     width='500px'
 />
 
-### React Components 
+## Podcast website driven to evoke women's empowerment through shared experiences. This project is coded in all React.js. 
 
-- React-BootStrap Components (Carousel, NavBar, Nav, container, Row, Col, etc.)
+### Project Goals
+
+- To create a podcast API where the users can listen to episodes live from the website itself without going to Spotify or Anchor.
+- To send emails using an Email API where the emails will come straight to my personal email address.
+
+### Components, Libraries, and Frameworks 
+
+- Reactstrap Components
 - Font Awesome
-- Boostrap Social 
 - Typeface Fonts 
 - React-Router-DOM 
-- MORE!
+- SASS 
+- Emailjs API
 
 ### HomePage 
 
-The homepage slightly resembles my original bootstrap homepage where I created the carousel, navigation bar, and footer. I did experience some struggles which included the following:
+<img 
+    src='/src/img/fullhomepage.pdf' 
+    alt='homepage' 
+    width='600px' 
+/>
 
-- My background image from my original project would never show - instead I had to settle for a normal color for now. I am currently reviewing documentation and YouTube tutorials on how to incorporate a background image in React.
+### ListenLivePage
 
-- The navigation bar in the main bar and the footer are not centering on the page the way I need it to. I am currently thinking about restructing the navbar to get my items centered. 
+### EpisodesPage
+
+### ContactPage
 
 <img 
-    src='/src/img/screencapture-localhost-3000-2022-09-19-22_55_52.png' 
+    src='/src/img/fullcontactpage.pdf' 
     alt='homepage' 
     width='600px' 
 />
