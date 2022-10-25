@@ -17,7 +17,7 @@ const AudioPlayer = () => {
 
     return (
         <div className='audio-player'>
-            <Card>
+            <Card className='audio-card'>
                 <CardBody>
                     <audio src='/'preload='metadata'></audio>
 
