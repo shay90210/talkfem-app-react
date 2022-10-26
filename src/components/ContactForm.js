@@ -37,7 +37,7 @@ const ContactForm = () => {
                     <Col sm={10}>
                         <Input 
                             id='firstName'
-                            name='name'
+                            name='firstName'
                             placeholder='First Name'
                             type='text'
                         />                    
@@ -50,7 +50,7 @@ const ContactForm = () => {
                     <Col sm={10}>
                         <Input 
                             id='lastName'
-                            name='name'
+                            name='lastName'
                             placeholder='Last Name'
                             type='text'
                         />                    
@@ -63,7 +63,7 @@ const ContactForm = () => {
                     <Col sm={10}>
                         <Input 
                             id='emailAddress'
-                            name='email'
+                            name='emailAddress'
                             placeholder='Email'
                             type='email'
                         />                    
@@ -89,7 +89,7 @@ const ContactForm = () => {
                     <Col sm={10}>
                         <Input 
                             id='messageText'
-                            name='text'
+                            name='messageText'
                             placeholder='Leave a message here'
                             type='textarea'
                         />                    
