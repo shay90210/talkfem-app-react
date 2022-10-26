@@ -23,7 +23,7 @@ const AudioPlayer = () => {
 
                     <div className='control-buttons'>
                         <Button className='forward-backward'>
-                            <FontAwesomeIcon icon={faArrowAltCircleLeft} /> 30
+                            <FontAwesomeIcon icon={faArrowAltCircleLeft} /> <span style={{ fontSize: '20px' }}>30</span>
                         </Button>
 
                         <Button 
@@ -34,22 +34,22 @@ const AudioPlayer = () => {
                         </Button>
 
                         <Button className='forward-backward'>
-                            30 <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                            <span style={{ fontSize: '20px' }}>30</span> <FontAwesomeIcon icon={faArrowAltCircleRight} />
                         </Button>
                     </div>
 
                     {/* current time */}
-                    <div>0:00</div>
+                    <div className='current-time'>0:00</div>
 
                     {/* progress bar */}
-                    <div>
+                    <div className='progress-bar'>
                         <Input 
                             type='range'
                         />
                     </div>
 
                     {/* duration */}
-                    <div>2:49</div>
+                    <div className='duration'>2:49</div>
                 </CardBody>
             </Card>
         </div>

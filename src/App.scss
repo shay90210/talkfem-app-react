@@ -18,8 +18,7 @@
     $--fw-bold: 600;
     $--fw-bolder: 900;
     
-    $--bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25), 
-    0.125em 0.125em 0.25em rgba(0,0,0, .15);
+    $--bs: 10px 10px 20px rgba(0, 0, 0, 0.2);
 
 
 // COMPONENTS -----------------------------------------------------------------
@@ -111,13 +110,18 @@
     }
     .forward-backward {
         background: none;
-        color: $--color-Primary;
         border: none;
         display: flex;
         align-items: center;
-        font-family: 'roboto condensed';
-        font-size: 20px;
+        font-family: 'source open sans';
+        font-size: 30px;
+        width: 75px;
+        height: 75px;
         cursor: pointer;
+        border-radius: 50%;
+        font-weight: $--fw-bold;
+        text-shadow: 5px 5px 10px rgba(176, 30, 176, 0.4);
+        color: $--color-Primary;
     }
     .play-pause {
         background: $--color-Primary;
@@ -127,8 +131,15 @@
         height: 75px;
         font-size: 40px;
         color: $--color-Secondary;
+        box-shadow: $--bs;
+    }
+    .current-time, .duration {
+        font-size: 16px;
+        font-family: 'source open sans';
+        font-weight: $--fw-bold;
     }
     .audio-card {
+        box-shadow: $--bs;
         .forward-backward:hover {
             background-color: $--color-Primary
         }
