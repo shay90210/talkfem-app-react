@@ -174,11 +174,22 @@
 
 @media screen and (max-width: 807px) {
     .home-page {
-        .main-header {
-            font-size: $--header-2;
-        }
         .brand-logo {
             width: 250px
         }
+    }
+}
+
+// episodespage media queries 
+@media screen and (max-width: 660px) {
+    .audio-player {
+        width: 300px;
+    }
+}
+
+// unviversal 
+@media screen and (max-width: 660px) {
+    .main-header {
+        font-size: 76px;
     }
 }
