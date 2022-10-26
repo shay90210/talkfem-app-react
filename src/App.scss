@@ -155,9 +155,18 @@
 }
 
 // contactpage
-
+.contact {
+    margin-top: 75px;
+}
 
 // MEDIA QUERIES ---------------------------------------------------------------
+
+// unviversal 
+@media screen and (max-width: 660px) {
+    .main-header {
+        font-size: 76px;
+    }
+}
 
 // homepage media queries
 @media screen and (max-width: 767px) {
@@ -191,9 +200,11 @@
     }
 }
 
-// unviversal 
-@media screen and (max-width: 660px) {
-    .main-header {
-        font-size: 76px;
+// contactpage media queries
+@media screen and (max-width: 1201px) {
+    .contact {
+        .contact-image {
+            width: 400px;
+        }
     }
 }
