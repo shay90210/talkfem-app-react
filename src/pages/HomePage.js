@@ -3,6 +3,7 @@ import BrandLogo from '../img/logo.png';
 import { 
     Container, 
     Row, 
+    Col
 } from 'reactstrap';
 
 const HomePage = () => {
@@ -13,11 +14,13 @@ const HomePage = () => {
             <h3 className='third-header'>a safe space where we uplift women and talk shit.</h3>
                 <Container>
                     <Row>
-                        <img 
-                            src={BrandLogo}
-                            className='brand-logo'
-                            alt='the podcast logo'
-                        />
+                        <Col>
+                            <img 
+                                src={BrandLogo}
+                                className='brand-logo'
+                                alt='the podcast logo'
+                            />
+                        </Col>
                     </Row>
                 </Container>
         </div>
