@@ -85,10 +85,12 @@
 .home-page {
     .brand-logo {
         border-radius: 50%;
-        width: 300px;
+        width: 400px;
+        display: block;
+        margin: auto;
+        margin-top: 75px;
+        margin-bottom: 75px;
         box-shadow: $--bs;
-        margin-bottom: 60px;
-        margin-top: 60px;
     }
 }
 
