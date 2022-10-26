@@ -4,13 +4,28 @@ import {
     Label,
     Col,
     Input,
+    Button
  } from "reactstrap"
 
+import emailjs from '@emailjs/browser';
+
 const ContactForm = () => {
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_83toxj7', 'template_et99jyv', e.target, 'HsQ73zypgOlmQBhhb')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset();
+    }
 
     return (
         <div>
             <Form
+                onSubmit={sendEmail}
                 style={{
                     paddingBottom: '30px',
                 }}
@@ -80,6 +95,11 @@ const ContactForm = () => {
                         />                    
                     </Col>
                 </FormGroup>
+                <Col sm={4}>
+                    <Button type='submit'>
+                        Submit
+                    </Button>
+                </Col>
             </Form>
         </div>
     )
