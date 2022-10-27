@@ -31,7 +31,7 @@ const ContactForm = () => {
                 }}
             >
                 <FormGroup row>
-                    <Label for='firstName'>
+                    <Label for='firstName' className='form-label'>
                         First Name 
                     </Label>
                     <Col sm={10}>
@@ -44,7 +44,7 @@ const ContactForm = () => {
                     </Col>
                 </FormGroup>
                 <FormGroup row>
-                    <Label for='lastName'>
+                    <Label for='lastName' className='form-label'>
                         Last Name 
                     </Label>
                     <Col sm={10}>
@@ -57,7 +57,7 @@ const ContactForm = () => {
                     </Col>
                 </FormGroup>
                 <FormGroup row>
-                    <Label for='emailAddress'>
+                    <Label for='emailAddress' className='form-label'>
                         Email
                     </Label>
                     <Col sm={10}>
@@ -70,7 +70,7 @@ const ContactForm = () => {
                     </Col>
                 </FormGroup>
                 <FormGroup row>
-                    <Label for='phoneNum'>
+                    <Label for='phoneNum' className='form-label'>
                         Phone Number
                     </Label>
                     <Col sm={10}>
@@ -83,7 +83,7 @@ const ContactForm = () => {
                     </Col>
                 </FormGroup>
                 <FormGroup row>
-                    <Label for='messageArea'>
+                    <Label for='messageArea' className='form-label'>
                         Message
                     </Label>
                     <Col sm={10}>

@@ -27,14 +27,14 @@
 .main-nav {
     background-color: $--color-light;
     font-size: $--para-1;
-    .nav-link {
-        color: $--color-Primary;
-        font-weight: $--fw-bold;
-        font-family: 'roboto condensed';
-    }
-    .nav-link:hover {
-        color: $--color-dark;
-    }
+        .nav-link {
+            color: $--color-Primary;
+            font-weight: $--fw-bold;
+            font-family: 'roboto condensed';
+        }
+        .nav-link:hover {
+            color: $--color-dark;
+        }
 }
 
 // footer
@@ -106,12 +106,12 @@
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    .control-buttons {
-        display: flex;
-        margin-bottom: 25px;
-        margin-top: 10px;
-        justify-content: space-around;
-    }
+        .control-buttons {
+            display: flex;
+            margin-bottom: 25px;
+            margin-top: 10px;
+            justify-content: space-around;
+        }
     .forward-backward {
         background: none;
         border: none;
@@ -144,19 +144,29 @@
     }
     .audio-card {
         box-shadow: $--bs;
-        .forward-backward:hover {
-            background-color: $--color-Primary
-        }
-        .play-pause:hover {
-            background-color: $--color-Secondary;
-            color: $--color-Primary;
-        }
+            .forward-backward:hover {
+                background-color: $--color-Primary
+            }
+            .play-pause:hover {
+                background-color: $--color-Secondary;
+                color: $--color-Primary;
+            }
     }
 }
 
 // contactpage
 .contact {
     margin-top: 75px;
+    margin-bottom: 125px;
+    background-image: url(../src/img/pexels-godisable-jacob-871495.jpg);
+    background-position-y: center ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+        .form-label {
+            color: $--color-dark;
+            font-weight: $--fw-bold;
+        }
 }
 
 // MEDIA QUERIES ---------------------------------------------------------------
