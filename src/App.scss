@@ -142,6 +142,28 @@
         font-family: 'source open sans';
         font-weight: $--fw-bold;
     }
+    .progress-bar {
+        background-color: $--color-Secondary;
+        appearance: none;
+        border-radius: 10px;
+        position: relative;
+        width: 100%;
+        height: 11px;
+        outline: none;
+    }
+    .progress-bar::before {
+        content: '';
+        height: 11px;
+        width: 100px;
+        background-color: $--color-Primary;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        cursor: pointer;
+    }
     .audio-card {
         box-shadow: $--bs;
             .forward-backward:hover {
@@ -153,8 +175,6 @@
             }
     }
 }
-
-.progress-bar ::-moz-range-track
 
 // contactpage
 .contact {
