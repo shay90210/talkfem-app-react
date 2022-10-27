@@ -32,17 +32,23 @@
 <img 
     src='/src/img/newhomepagefull.png' 
     alt='homepage' 
-    width='600px' 
+    width='700px' 
 />
 
 ### ListenLivePage
 
 ### EpisodesPage
 
+<img 
+    src='/src/img/audioplayerfullpage.png'
+    alt='episodes page'
+    width='700px'
+/>
+
 ### ContactPage
 
 <img 
     src='/src/img/newcontactfullpage.png' 
     alt='homepage' 
-    width='600px' 
+    width='700px' 
 />
