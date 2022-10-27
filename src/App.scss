@@ -163,10 +163,21 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-        .form-label {
-            color: $--color-dark;
-            font-weight: $--fw-bold;
-        }
+}
+
+.contact-form {
+    .form-label {
+        color: $--color-Primary;
+        font-weight: $--fw-bold;
+    }
+    .form-button {
+        background-color: $--color-Primary;
+        border: $--color-Primary;
+        box-shadow: $--bs;
+    }
+    .form-button:hover {
+        background-color: $--color-dark;
+    }
 }
 
 // MEDIA QUERIES ---------------------------------------------------------------
@@ -185,6 +196,7 @@
             display: block;
             margin: auto;
             margin-top: 60px;
+            margin-bottom: 75px;
         }
         .main-header {
             font-size: $--header-2;

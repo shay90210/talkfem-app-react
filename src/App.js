@@ -12,7 +12,7 @@ function App() {
   return (
     <div 
       className="App"
-      style={{ backgroundColor: '#ffb6c1' }}
+      style={{ background: `linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%)` }}
     >
       <NavigationBar />
         <Routes>

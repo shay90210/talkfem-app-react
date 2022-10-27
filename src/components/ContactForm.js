@@ -26,15 +26,13 @@ const ContactForm = () => {
         <div>
             <Form
                 onSubmit={sendEmail}
-                style={{
-                    paddingBottom: '30px',
-                }}
+                className='contact-form'
             >
                 <FormGroup row>
                     <Label for='firstName' className='form-label'>
                         First Name 
                     </Label>
-                    <Col sm={10}>
+                    <Col sm={8}>
                         <Input 
                             id='firstName'
                             name='firstName'
@@ -47,7 +45,7 @@ const ContactForm = () => {
                     <Label for='lastName' className='form-label'>
                         Last Name 
                     </Label>
-                    <Col sm={10}>
+                    <Col sm={8}>
                         <Input 
                             id='lastName'
                             name='lastName'
@@ -60,7 +58,7 @@ const ContactForm = () => {
                     <Label for='emailAddress' className='form-label'>
                         Email
                     </Label>
-                    <Col sm={10}>
+                    <Col sm={8}>
                         <Input 
                             id='emailAddress'
                             name='emailAddress'
@@ -73,7 +71,7 @@ const ContactForm = () => {
                     <Label for='phoneNum' className='form-label'>
                         Phone Number
                     </Label>
-                    <Col sm={10}>
+                    <Col sm={8}>
                         <Input 
                             id='phoneNum'
                             name='phoneNum'
@@ -86,7 +84,7 @@ const ContactForm = () => {
                     <Label for='messageArea' className='form-label'>
                         Message
                     </Label>
-                    <Col sm={10}>
+                    <Col sm={8}>
                         <Input 
                             id='messageText'
                             name='messageText'
@@ -96,7 +94,7 @@ const ContactForm = () => {
                     </Col>
                 </FormGroup>
                 <Col sm={4}>
-                    <Button type='submit'>
+                    <Button type='submit' className='form-button'>
                         Submit
                     </Button>
                 </Col>
