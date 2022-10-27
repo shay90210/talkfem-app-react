@@ -6,7 +6,7 @@
     width='500px'
 />
 
-## Podcast website driven to evoke women's empowerment through shared experiences. This project is coded in all React.js. 
+## Feminism podcast React.js website driven to evoke women empowerment through shared experiences.
 
 ### Project Goals
 
@@ -25,7 +25,7 @@
 ### HomePage 
 
 <img 
-    src='/src/img/fullhomepage.jpg' 
+    src='/src/img/newhomepagefull.png' 
     alt='homepage' 
     width='600px' 
 />
@@ -37,7 +37,7 @@
 ### ContactPage
 
 <img 
-    src='/src/img/fullcontactpage (1).jpg' 
+    src='/src/img/newcontactfullpage.png' 
     alt='homepage' 
     width='600px' 
 />
