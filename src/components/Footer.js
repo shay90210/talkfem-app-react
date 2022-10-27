@@ -41,8 +41,7 @@ const Footer = () => {
                         <p
                             style={{ 
                                 textAlign: 'center',
-                                fontWeight: 'bold',
-
+                                fontFamily: 'roboto condensed'
                             }}
                         >
                             &copy; 2022, Talk Your FemSH!T Powered by The Glam Techie
