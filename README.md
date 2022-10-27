@@ -13,14 +13,19 @@
 - To create a podcast API where the users can listen to episodes live from the website itself without going to Spotify or Anchor.
 - To send emails using an Email API where the emails will come straight to my personal email address.
 
-### Components, Libraries, and Frameworks 
+### Libraries & Frameworks & API's
 
-- Reactstrap Components
+- Reactstrap 
 - Font Awesome
 - Typeface Fonts 
 - React-Router-DOM 
 - SASS 
 - Emailjs API
+
+### Components 
+- Audio Player 
+- Contact Form
+- Navigation Bar
 
 ### HomePage 
 
