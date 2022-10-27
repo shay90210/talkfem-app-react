@@ -34,6 +34,21 @@ const Footer = () => {
                         </div>
                     </Col>
                 </Row>
+                    <hr />
+                    <br />
+                <Row>
+                    <Col>
+                        <p
+                            style={{ 
+                                textAlign: 'center',
+                                fontWeight: 'bold',
+
+                            }}
+                        >
+                            &copy; 2022, Talk Your FemSH!T Powered by The Glam Techie
+                        </p>
+                    </Col>
+                </Row>
             </Container>
         </footer>
     )
