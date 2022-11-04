@@ -33,7 +33,7 @@
             font-family: 'roboto condensed';
         }
         .nav-link:hover {
-            color: $--color-dark;
+            color: rgb(49, 156, 156)
         }
 }
 
@@ -94,7 +94,16 @@
         margin-bottom: 75px;
         box-shadow: $--bs
     }
+    .live-button {
+        background-color: $--color-Primary;
+        font-family: $--ff-primary;
+        font-size: $--para-1;
+        font-weight: $--fw-bold;
+        display: block;
+        margin: auto;
+    }
 }
+
 
 // listenlivepage
 
@@ -196,9 +205,6 @@
         background-color: $--color-Primary;
         border: $--color-Primary;
         box-shadow: $--bs;
-    }
-    .form-button:hover {
-        background-color: $--color-dark;
     }
 }
 
