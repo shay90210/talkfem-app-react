@@ -152,6 +152,7 @@
         font-weight: $--fw-bold;
     }
     .progress-bar {
+        appearance: none;
         background-color: $--color-Secondary;
         appearance: none;
         border-radius: 10px;
