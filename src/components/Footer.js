@@ -7,7 +7,7 @@ import { faSpotify } from '@fortawesome/free-brands-svg-icons';
  
 const Footer = () => {
     return (
-        <footer className='site-footer pt-4'>
+        <footer className='site-footer pt-4 pb-4'>
             <Container>
                 <Row>
                     <Col className='text-center'>
