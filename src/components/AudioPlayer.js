@@ -7,6 +7,7 @@ import {
     faPlayCircle,
     faPauseCircle
 } from "@fortawesome/free-solid-svg-icons";
+import testSound from '../../src/mp3/bensound-rustleofleaves.mp3';
 
 const AudioPlayer = () => {
     const [isPlaying, setIsPlaying] = useState(false);
@@ -74,9 +75,10 @@ const AudioPlayer = () => {
             <Card className='audio-card'>
                 <CardBody>
                     <audio 
-                        src='mp3/bensound-rustleofleaves.mp3' 
+                        src={testSound} 
                         ref={audioPlayer} 
-                        preload='metadata'>
+                        preload='metadata'
+                    >
                     </audio>
 
                     <div className='control-buttons'>
