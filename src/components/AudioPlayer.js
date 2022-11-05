@@ -28,7 +28,7 @@ const AudioPlayer = () => {
         const returnedMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`;
         const seconds = Math.floor(secs % 60);
         const returnedSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`;
-        return `${returnedMinutes}:${returnedSeconds}`;
+            return `${returnedMinutes}:${returnedSeconds}`;
     }
 
     const togglePlayPause = () => {
@@ -73,11 +73,18 @@ const AudioPlayer = () => {
         <div className='audio-player'>
             <Card className='audio-card'>
                 <CardBody>
-                    <audio src='mp3/bensound-rustleofleaves.mp3' ref={audioPlayer} preload='metadata'></audio>
+                    <audio 
+                        src='mp3/bensound-rustleofleaves.mp3' 
+                        ref={audioPlayer} 
+                        preload='metadata'>
+                    </audio>
 
                     <div className='control-buttons'>
-                        <Button className='forward-backward' onClick={backThirty}>
-                            <FontAwesomeIcon icon={faArrowAltCircleLeft} /> <span style={{ fontSize: '20px' }}>30</span>
+                        <Button 
+                            className='forward-backward' 
+                            onClick={backThirty}>
+                                <FontAwesomeIcon icon={faArrowAltCircleLeft} /> 
+                                    <span style={{ fontSize: '20px' }}>30</span>
                         </Button>
 
                         <Button 
@@ -88,7 +95,8 @@ const AudioPlayer = () => {
                         </Button>
 
                         <Button className='forward-backward' onClick={forwardThirty}>
-                            <span style={{ fontSize: '20px' }}>30</span> <FontAwesomeIcon icon={faArrowAltCircleRight} />
+                            <span style={{ fontSize: '20px' }}>30</span> 
+                                <FontAwesomeIcon icon={faArrowAltCircleRight} />
                         </Button>
                     </div>
 
@@ -110,7 +118,7 @@ const AudioPlayer = () => {
                 </CardBody>
             </Card>
         </div>
-    )
+    );
 }
 
 export default AudioPlayer;
