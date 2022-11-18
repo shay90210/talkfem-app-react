@@ -71,7 +71,7 @@ const AudioPlayer = () => {
     }
 
     return (
-        <div className='audio-player'>
+        <div className='audioPlayer'>
             <Card className='audio-card'>
                 <CardBody>
                     <audio 
@@ -81,9 +81,9 @@ const AudioPlayer = () => {
                     >
                     </audio>
 
-                    <div className='control-buttons'>
+                    <div className='controlButtons'>
                         <Button 
-                            className='forward-backward' 
+                            className='forwardBackward' 
                             onClick={backThirty}>
                                 <FontAwesomeIcon icon={faArrowAltCircleLeft} /> 
                                     <span style={{ fontSize: '20px' }}>30</span>
@@ -91,22 +91,22 @@ const AudioPlayer = () => {
 
                         <Button 
                             onClick={togglePlayPause}
-                            className='play-pause'
+                            className='playPause'
                         >
                             { isPlaying ? <FontAwesomeIcon icon={faPauseCircle} /> : <FontAwesomeIcon icon={faPlayCircle} /> }
                         </Button>
 
-                        <Button className='forward-backward' onClick={forwardThirty}>
+                        <Button className='forwardBackward' onClick={forwardThirty}>
                             <span style={{ fontSize: '20px' }}>30</span> 
                                 <FontAwesomeIcon icon={faArrowAltCircleRight} />
                         </Button>
                     </div>
 
                     {/* current time */}
-                    <div className='current-time'>{calculateTime(currentTime)}</div>
+                    <div className='currentTime'>{calculateTime(currentTime)}</div>
 
                     {/* progress bar */}
-                    <div className='progress-bar'>
+                    <div className='progressBar'>
                         <Input 
                             type='range'
                             defaultValue='0'

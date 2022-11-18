@@ -109,19 +109,19 @@
 
 
 // episodespage
-.audio-player {
+.audioPlayer {
     width: 600px;
     display: block;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-        .control-buttons {
+        .controlButtons {
             display: flex;
             margin-bottom: 25px;
             margin-top: 10px;
             justify-content: space-around;
         }
-    .forward-backward {
+    .forwardBackward {
         background: none;
         border: none;
         display: flex;
@@ -136,7 +136,7 @@
         text-shadow: 5px 5px 10px rgba(176, 30, 176, 0.4);
         color: $--color-Primary;
     }
-    .play-pause {
+    .playPause {
         background: $--color-Primary;
         border: none;
         border-radius: 50%;
@@ -146,12 +146,12 @@
         color: $--color-Secondary;
         box-shadow: $--bs;
     }
-    .current-time, .duration {
+    .currentTime, .duration {
         font-size: 16px;
         font-family: 'source open sans';
         font-weight: $--fw-bold;
     }
-    .progress-bar {
+    .progressBar {
         appearance: none;
         background-color: $--color-Secondary;
         appearance: none;
@@ -161,7 +161,7 @@
         height: 11px;
         outline: none;
     }
-    .progress-bar::before {
+    .progressBar::before {
         content: '';
         height: 11px;
         width: 100px;
@@ -176,10 +176,10 @@
     }
     .audio-card {
         box-shadow: $--bs;
-            .forward-backward:hover {
+            .forwardBackward:hover {
                 background-color: $--color-Primary
             }
-            .play-pause:hover {
+            .playPause:hover {
                 background-color: $--color-Secondary;
                 color: $--color-Primary;
             }
